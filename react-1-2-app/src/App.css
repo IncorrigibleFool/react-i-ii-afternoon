@@ -1,0 +1,46 @@
+header{
+  font-weight: bold;
+  background-color: rgb(94, 165, 209);
+  height: 10vh;
+  line-height: 10vh;
+  padding-left: 5vw;
+}
+
+main{
+  background-color: rgb(44, 44, 44);
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.main-box{
+  background-color: white;
+  height: 60vh;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  line-height: 2px;
+}
+
+#counter{
+  align-self: flex-end;
+  padding-right: 2vw;
+}
+
+#name{
+  text-decoration: underline rgb(94, 165, 209);
+}
+
+.movielist{
+  
+}
+
+footer{
+  background-color: rgb(44,44,44);
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
