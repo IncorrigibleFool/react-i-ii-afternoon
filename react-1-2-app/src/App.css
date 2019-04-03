@@ -20,7 +20,8 @@ main{
   width: 80vw;
   display: flex;
   flex-direction: column;
-  line-height: 2px;
+  line-height: 10px;
+  padding-left: 5vw;
 }
 
 #counter{
@@ -30,10 +31,19 @@ main{
 
 #name{
   text-decoration: underline rgb(94, 165, 209);
+  margin-top: 0;
 }
 
-.movielist{
-  
+.bold{
+  font-weight: bold;
+}
+
+#favorites{
+  margin-bottom: 0;
+}
+
+.movie-list{
+  padding-left: 2vw;
 }
 
 footer{
