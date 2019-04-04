@@ -5,7 +5,7 @@ export default class Main extends Component{
         return(
             <main>
                 <div className = 'main-box'>
-                    <h1 id = 'counter'>{this.props.index + 1}/25</h1>
+                    <h1 id = 'counter'>{this.props.index + 1}/{this.props.data.length}</h1>
                     <h1 id = 'name'>{this.props.data[this.props.index].name.first} {this.props.data[this.props.index].name.last}</h1>
                     <span>
                         <p><span className= 'bold'>From: </span>{this.props.data[this.props.index].city}, {this.props.data[this.props.index].country}</p>
@@ -18,7 +18,6 @@ export default class Main extends Component{
                         <p className = 'movie-list'>2: {this.props.data[this.props.index].favoriteMovies[1]}</p>
                         <p className = 'movie-list'>3: {this.props.data[this.props.index].favoriteMovies[2]}</p>
                     </span>
-
                 </div>
             </main>
         )

@@ -1,3 +1,7 @@
+*{
+  font-family: sans-serif;
+}
+
 header{
   font-weight: bold;
   background-color: rgb(94, 165, 209);
@@ -54,3 +58,22 @@ footer{
   align-items: flex-start;
 }
 
+.buttons{
+  background-color: rgb(94, 165, 209);
+  margin: 20px;
+  cursor: pointer;
+}
+
+#previous-button{
+  margin-right: auto;
+  margin-left: 8vw;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+#next-button{
+  margin-right: 8vw;
+  margin-left: auto;
+  margin-top: 20px;
+  cursor: pointer;
+}
